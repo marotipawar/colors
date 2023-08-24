@@ -4,16 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b38712b-5a0d-402d-89df-e581a43ea03b" name="Changes" comment="" />
+    <list default="true" id="9b38712b-5a0d-402d-89df-e581a43ea03b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maroti/color/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maroti/color/ColorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/maroti/serviceImpl/ColorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maroti/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/maroti/AppTest.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="enum" />
+        <option value="Kotlin Class" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="TestNG Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 1
 }]]></component>
   <component name="ProjectId" id="2UQ7ZvwWC1aEbMGYUczJ5T3fQTp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,9 +54,151 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "TestNG",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG": "",
+    "git-widget-placeholder": "master",
     "settings.editor.selected.configurable": "preferences.fileTypes"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.maroti" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.maroti.serviceImpl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.ColorTest">
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.maroti.main.MainApp" />
+      <module name="colors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maroti.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColorImplTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="colors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maroti.serviceImpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.maroti.serviceImpl" />
+      <option name="MAIN_CLASS_NAME" value="com.maroti.serviceImpl.ColorImplTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColorImplTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="colors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maroti.serviceImpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.maroti.serviceImpl" />
+      <option name="MAIN_CLASS_NAME" value="com.maroti.serviceImpl.ColorImplTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="colors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maroti.serviceImpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.maroti.serviceImpl" />
+      <option name="MAIN_CLASS_NAME" value="com.maroti.serviceImpl.ColorTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="colors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maroti.serviceImpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.maroti.serviceImpl" />
+      <option name="MAIN_CLASS_NAME" value="com.maroti.serviceImpl.ColorTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="colors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maroti.serviceImpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.maroti.serviceImpl" />
+      <option name="MAIN_CLASS_NAME" value="com.maroti.serviceImpl.ColorTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColorTest.testGetColorHex" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="colors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maroti.serviceImpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.maroti.serviceImpl" />
+      <option name="MAIN_CLASS_NAME" value="com.maroti.serviceImpl.ColorTest" />
+      <option name="METHOD_NAME" value="testGetColorHex" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ColorTest" />
+        <item itemvalue="TestNG.ColorTest.testGetColorHex" />
+        <item itemvalue="Application.MainApp" />
+        <item itemvalue="TestNG.ColorTest" />
+        <item itemvalue="TestNG.ColorTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
