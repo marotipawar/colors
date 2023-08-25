@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b38712b-5a0d-402d-89df-e581a43ea03b" name="Changes" comment="color">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/maroti/color/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="9b38712b-5a0d-402d-89df-e581a43ea03b" name="Changes" comment="new color added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/maroti/color/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maroti/color/Color.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/maroti/serviceImpl/ColorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/maroti/serviceImpl/ColorTest.java" afterDir="false" />
@@ -94,23 +92,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ColorImplTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="colors" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.maroti.serviceImpl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.maroti.serviceImpl" />
-      <option name="MAIN_CLASS_NAME" value="com.maroti.serviceImpl.ColorImplTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ColorTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="colors" />
       <extension name="coverage">
@@ -180,13 +161,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ColorTest.testGetColorName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="colors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maroti.serviceImpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.maroti.serviceImpl" />
+      <option name="MAIN_CLASS_NAME" value="com.maroti.serviceImpl.ColorTest" />
+      <option name="METHOD_NAME" value="testGetColorName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.ColorTest.testGetColorHex" />
+        <item itemvalue="TestNG.ColorTest.testGetColorName" />
+        <item itemvalue="TestNG.ColorTest" />
         <item itemvalue="Application.App" />
-        <item itemvalue="TestNG.ColorTest" />
         <item itemvalue="Application.MainApp" />
-        <item itemvalue="TestNG.ColorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -207,11 +206,20 @@
       <option name="project" value="LOCAL" />
       <updated>1692891003457</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new color added">
+      <option name="closed" value="true" />
+      <created>1692933079796</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692933079806</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="color" />
-    <option name="LAST_COMMIT_MESSAGE" value="color" />
+    <MESSAGE value="new color added" />
+    <option name="LAST_COMMIT_MESSAGE" value="new color added" />
   </component>
 </project>

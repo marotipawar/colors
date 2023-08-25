@@ -20,6 +20,9 @@ public interface Color {
                 String shortHex = color.getHexCode().substring(0, 4);
                 if (color.getHexCode().equals(fullHexCode)) {
                     return color;
+                }else if(color.getHexCode().equalsIgnoreCase(shortHex)){
+                    return color;
+
                 }
             }
         }

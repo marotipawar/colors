@@ -28,9 +28,9 @@ public class ColorTest {
     @Test
     public void testGetColorHex() throws InterruptedException {
         WebDriver driver = new ChromeDriver();
-        driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+        driver.get("https://demo.guru99.com/test/newtours/register.php");
         Thread.sleep(4000);
-        WebElement button=driver.findElement(By.tagName("h5"));
+        WebElement button=driver.findElement(By.xpath("(//a)[2]"));
         String color1=button.getCssValue("color");
         System.out.println("ColorName :"+Color.name(color1));
     }
